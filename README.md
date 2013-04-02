@@ -20,8 +20,8 @@ The show / region are not dependent of each other so all shows and regions can b
 
 The submit button shall validate the entries and log the show & region selected.
 
-
-Commit your work to git repository as you progress. We should be able to checkout the git repo and get the webapp running after configuring a web server top point to that resource.
+Please fork the git repository to progress and commit your work. Then push back your changes and request a Pull Request or give provide us with your fork(-ed) repo.
+We should be able to checkout the git repo and get the webapp running after configuring a web server top point to that resource.
 
 *Bonus work 1:* Make the show and region dependent of one another by applying the 'show_regions' rules, so that only a subset of the regions are available for each show. This piece is optional but bonus point will be added for its completion.
 
