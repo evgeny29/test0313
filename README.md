@@ -9,7 +9,10 @@ The drop-down selection boxes will be displayed vertically below the logo. The l
 
 The landing page shall be responsive for mobile-phone, tablet and desktop. The logo can be resized for small displays if needed.
 
-The drop-down boxes shall contain the options available from the JSONP request to [this GET url](https://test-live-webapp.s3.amazonaws.com/json.js). JSONP response will contain:
+The drop-down boxes shall contain the options available from the JSONP request to [this GET url](https://test-live-webapp.s3.amazonaws.com/json.js).
+
+JSONP response will contain:
+
 1. Show list named 'shows'
 2. Region list named 'regions'
 3. Regions per show list named 'show_regions' (see bonus work)
@@ -20,13 +23,14 @@ The show / region are not dependent of each other so all shows and regions can b
 
 The submit button shall validate the entries and log the show & region selected.
 
-Please fork the git repository to progress and commit your work. Then push back your changes and request a Pull Request or give provide us with your fork(-ed) repo.
+**Bonus work 1:** Make the show and region dependent of one another by applying the 'show_regions' rules, so that only a subset of the regions are available for each show. This piece is optional but bonus point will be added for its completion.
+
+**Bonus work 2:** Save the region & show selected values to Local Storage so that a refresh of the landing page displays the last user selections (form is pre-filled). This piece is optional but bonus point will be added for its completion.
+
+
+## How to deliver:
+Please fork this git repository to progress and commit your work. Then push back your changes and request a Pull Request or give provide us with your fork(-ed) repo if you are unable to do the pull-request.
 We should be able to checkout the git repo and get the webapp running after configuring a web server top point to that resource.
-
-*Bonus work 1:* Make the show and region dependent of one another by applying the 'show_regions' rules, so that only a subset of the regions are available for each show. This piece is optional but bonus point will be added for its completion.
-
-*Bonus work 2:* Save the region & show selected values to Local Storage so that a refresh of the landing page displays the last user selections (form is pre-filled). This piece is optional but bonus point will be added for its completion.
-
 
 
 ## Provided resources:
