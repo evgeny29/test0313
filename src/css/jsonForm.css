@@ -1,0 +1,77 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.centeredContent {
+    margin: auto;
+	display:block;
+	text-align:center;
+}
+
+.clearFix{
+	clear:both;
+}
+
+.formDiv {
+	display:inline-block;
+}
+
+#showForm select{
+	width:180px;
+	padding:5px;
+	margin:18px;
+    font-family: 'Arial',serif;
+	color:black;
+	transition: all 0.25s ease-out 0s;
+}
+#showForm select[disabled] { 
+	color:white;
+	background-color: #0099CC;
+	border:0;
+}
+
+
+@media (max-width: 300px){
+	#showForm select{
+		width:80%;
+		min-width:50px;
+	}
+}
+img {
+	max-width: 90%;
+	min-width: 50px;
+}
+
+h1{
+	text-align:center;
+}
+
+.buttonsDiv button{
+   -moz-user-select: none;
+    background: none repeat scroll 0 0 #2C4147;
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Arial',serif;
+	font-size:12px;
+    line-height: 3em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+	margin:5px;
+	width:100px;
+    transition: all 0.25s ease-out 0s;
+}
+
+.buttonsDiv button:hover {
+    background: none repeat scroll 0 0 #0099CC;
+}
+.roundedBorders{
+	border: 2px solid #ABC;
+	border-radius: 5px;
+	padding:4px;
+}
